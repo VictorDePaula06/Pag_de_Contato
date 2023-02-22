@@ -75,10 +75,10 @@ p{
     cursor: pointer;
 }
 
-  @media screen and (max-width:600px){
+  @media screen and (max-width:500px){
 
     img{
-        width: 390px;
+        width: 500px;
     }
 
     .contact{
