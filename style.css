@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;    
+}
+
+
+
+img{
+    margin: 0;
+    padding: 0;
+    width: 40vw;
+    height: 100vh;
+}
+
+#container{
+    position: relative;
+    background-color: bisque;
+}
+
+
+
+.title{
+    position: absolute;
+    border-bottom: solid 2px bisque;
+    top: 3%;
+    left:50%;
+    transform: translateX(-15%);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact{
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    float: right;
+    left: 75%;
+    top: 50%;
+    transform: translate(-70%,-50%);
+}
+
+.light{
+  text-align: center;
+  position: absolute;
+  right:0; 
+  top: 0;
+  transform: translate(-10%,-10%);
+}
+
+#bts{
+    display: inline-block;
+    background-color: bisque;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btn{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.inputs{
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: bisque;
+    border-bottom:2px solid rgb(0, 0, 0) ;
+    color: #000000;
+    outline-style: none;
+    margin-bottom: 30px;
+}
+
+.inputs:hover{
+    padding: 10px;
+    padding-right: 100px;
+  
+}
+
+.send{
+    background-color: black;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.send:hover{
+    padding: 20px 100px 20px 100px;
+    margin-left: 20px;
+}
+
+  @media screen and (max-width:600px){
+
+    img{
+        width: 500px;
+    }
+
+    .contact{
+        width: 270px;
+        top: 55% ;
+        left: 65%;
+        position: absolute;
+        margin: auto;
+        float: none;
+        background-color: rgba(51, 79, 103, 0.588);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .title{
+        font-size: 20px;
+        padding: 0;
+        border-radius: 10px;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        
+    }
+
+    p{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .inputs{
+        width:200px ;
+        margin-left: 10px;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-radius:10px ;
+    }
+
+    .inputs:hover{
+        padding: 20px;
+        margin-left:0 ;
+    }
+    
+    .send{
+        background-color: black;
+        padding: 10px 50px 10px 50px;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    .send:hover{
+        padding: 10px 50px 10px 50px ;
+    }
+
+  }
+

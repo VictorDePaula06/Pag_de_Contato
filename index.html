@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>contact us</title>
+</head>
+<body>
+
+    <main id="container">
+        <div class="bigBen">
+            <img  id="img" src="./imgs/big_ben.png" alt="big ben" >
+        </div>
+       
+
+        <div class="formContainer">
+            <div class="title">
+                <h1>CONTACT US</h1>
+            </div>
+            <div class="light">
+                <p>Dark Mode</p>
+                <div id="bts" onclick="light_day()">LIGHT</div>
+                <div id="btn" onclick="light_night()">DARK</div>
+            </div>
+            
+            <div class="contact">
+                
+                <form method="get" action="">
+                    <p>FULL NAME</p>
+                    <input class="inputs" type="text" name="nome" placeholder="Your Full Name" ><br>
+                    <p>EMAIL ADDRESS</p>
+                    <input class="inputs" type="email" name="email" placeholder="Email address"><br>
+                    <p>MESSAGE</p>
+                    <textarea class="inputs" placeholder="YOUR MESSAGE" name="message"></textarea><br>
+                    <input class="send" type="submit" value="SEND">
+                </form>
+            </div>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
